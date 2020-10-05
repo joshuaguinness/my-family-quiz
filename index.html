@@ -1,0 +1,112 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Question and Answer: For Family Members</title>
+  <meta name="description" content="Q&A">
+  <meta name="author" content="Joshua Guinness">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center font-weight-bold" style="color: rgb(2, 60, 250);">My Family Quiz</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p id="instructions" class="text-justify">Welcome to My Family Quiz. In this activity we will ask you a series
+          of questions about your family. Select the correct option, out of three possible options, then click "Check"
+          to confirm you answer is correct before moving onto the next question.
+      </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h4 class="text-center font-weight-bold" id="question"></h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h5 id="feedback" class="text-center"></h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="text-center">
+          <div class="btn btn-outline-dark">
+            <input type="radio" name="answer" id="option1" value="">
+            <label class="font-weight-bold" id="option1-label" for="option1"></label>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="text-center">
+          <div class="btn btn-outline-dark">
+            <input type="radio" name="answer" id="option2" value="">
+            <label class="font-weight-bold" id="option2-label" for="option2"></label>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="text-center">
+          <div class="btn btn-outline-dark">
+            <input type="radio" name="answer" id="option3" value="">
+            <label class="font-weight-bold" id="option3-label" for="option3"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <input type="button" value="Check Answer" class="btn btn-primary btn-lg" id="check-button">
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg">
+        <div class="text-center">
+          <img class="img-fluid rounded" id="image1" src="" alt="Image 1" hidden="true">
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="text center">
+          <img class="img-fluid rounded" id="image2" src="" alt="Image 2" hidden="true">
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="text center">
+          <img class="img-fluid rounded" id="image3" src="" alt="Image 3" hidden="true">
+        </div>  
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <input type="button" value="Restart Quiz" class="btn btn-info btn-md" id="restart-button">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
